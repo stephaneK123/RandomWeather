@@ -1,0 +1,60 @@
+<resources>
+    <!-- Main App Light Theme -->
+    <style name="Base.Theme.RandomWeather" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_grey</item>
+        <item name="colorPrimaryVariant">@color/lighter_grey</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+        <item name="colorOnSecondary">@color/lighter_blue</item>
+        <!-- surfaces-->
+        <item name="colorSurface">@color/lighter_grey</item>
+        <item name="colorSurfaceVariant">@color/light_grey</item>
+        <item name="colorOnSurface">@color/white</item>
+        <!--- text -->
+        <item name="fontFamily"></item>
+        <item name="android:textColor">@color/bright_orange</item>
+        <!-- shapes   -->
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent
+        </item>
+        <item name="android:windowBackground">@color/lighter_blue</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- divider -->
+    <style name="Widget.App.MaterialDivider" parent="Widget.Material3.MaterialDivider">
+        <item name="dividerColor">@color/bright_orange</item>
+    </style>
+
+    <!--- shapes + overlays for shapes  -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">1dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">10dp</item>
+        <!--        <item name="cornerSizeBottomLeft">10dp</item>-->
+        <!--        <item name="cornerSizeBottomRight">10dp</item>-->
+        <!--        <item name="cornerSizeTopLeft">0dp</item>-->
+        <!--        <item name="cornerSizeTopRight">0dp</item>-->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Card.Media" parent="">
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- action bar setup -->
+    <!--    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+    <!--    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+    <!--    <style name="Base.Theme.RandomWeather.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--    </style>-->
+</resources>
